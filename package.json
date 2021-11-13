@@ -1,0 +1,26 @@
+{
+  "name": "wcc_node_api_nathalia_micheloni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathiMick/wcc_node_api_nathalia_micheloni.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathiMick/wcc_node_api_nathalia_micheloni/issues"
+  },
+  "homepage": "https://github.com/NathiMick/wcc_node_api_nathalia_micheloni#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
