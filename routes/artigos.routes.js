@@ -11,5 +11,13 @@ module.exports = (app) => {
 
     router.get("/findByName", artigosController.findByName);
 
+    router.get("/findPublishedArticle", artigosController.findPublishedArticle);
+
+    router.put("/updateArticle/:id", artigosController.updateArticle);
+
+    router.delete("/deleteAllArticles", artigosController.deleteAllArticles);
+
+    router.delete("/deleteArticle/:id", artigosController.deleteArticle);
+
     app.use("/artigos", router);
 }
